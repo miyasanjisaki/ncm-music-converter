@@ -1,0 +1,50 @@
+NCM Music Converter - Third-Party Notices
+=========================================
+
+The application source is distributed under GPL-2.0-or-later. The complete
+GPL version 2 text is in LICENSE.txt / LICENSE.
+
+Runtime components
+------------------
+
+1. Python 3.13
+   Project: https://www.python.org/
+   License: Python Software Foundation License Version 2 and bundled notices.
+
+2. PyCryptodome 3.23.0
+   Project: https://www.pycryptodome.org/
+   License: BSD / public-domain components.
+
+3. Mutagen 1.48.1
+   Project: https://github.com/quodlibet/mutagen
+   License: GPL-2.0-or-later.
+
+4. tkinterdnd2 0.6.2 and the bundled tkDnD extension
+   Project: https://github.com/Eliav2/tkinterdnd2
+   Upstream tkDnD: https://github.com/petasis/tkdnd
+   License: MIT.
+
+Build components
+----------------
+
+PyInstaller is used to assemble the Windows portable build. Its bootloader
+exception permits distributing applications produced with it. PyInstaller
+and its build-time helpers are not used as the NCM conversion algorithm.
+
+Format research and compatibility references
+--------------------------------------------
+
+The NCM container behavior was independently implemented and tested with
+reference to publicly documented, MIT-licensed projects including:
+
+- TaurusXin/ncmdump and ncmdump-go
+  https://github.com/taurusxin/ncmdump
+  https://git.taurusxin.com/taurusxin/ncmdump-go
+- iqiziqi/ncmdump.rs
+  https://github.com/iqiziqi/ncmdump.rs
+- ww-rm/ncmdump-py
+  https://github.com/ww-rm/ncmdump-py
+
+The portable package contains the exact license files for the bundled runtime
+components and the application's complete corresponding source code. No old
+converter executable from the user's existing folder is included.

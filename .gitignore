@@ -1,0 +1,11 @@
+/.venv/
+/build/
+/release/
+/logs/
+/work/
+/third_party/
+/settings.json
+/.pytest_cache/
+**/__pycache__/
+*.pyc
+*.part
